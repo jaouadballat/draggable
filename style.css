@@ -1,0 +1,35 @@
+.container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            width: 50%;
+            margin: 0 auto;
+            height: 100vh;
+        }
+
+        .box {
+            height: 100px;
+            width: 100px;
+            border: 5px solid #000000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box__dragabble {
+            width: 95%;
+            height: 95%;
+            background: #000000;
+        }
+
+        .drag_start {
+            opacity: .5;
+        }
+
+        .invisible {
+            display: none;
+        }
+
+        .drag_enter {
+            border: 5px dashed #112244;
+        }
